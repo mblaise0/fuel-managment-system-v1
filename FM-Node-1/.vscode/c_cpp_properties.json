@@ -1,0 +1,80 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/include",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/src",
+                "/home/sco/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/Ethernet/src",
+                "/home/sco/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/TaskScheduler/src",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/DallasTemperature",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/OneWire",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/ArduinoJson/src",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/AsyncDelay/src",
+                "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/PubSubClient/src",
+                "/home/sco/.platformio/packages/framework-arduino-sam/cores/arduino",
+                "/home/sco/.platformio/packages/framework-arduino-sam/system/libsam",
+                "/home/sco/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                "/home/sco/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                "/home/sco/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                "/home/sco/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                "/home/sco/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/include",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/src",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/Ethernet/src",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/TaskScheduler/src",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/DallasTemperature",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/OneWire",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/ArduinoJson/src",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/AsyncDelay/src",
+                    "/home/sco/Documents/PlatformIO/Projects/FM-Node-1/.pio/libdeps/due/PubSubClient/src",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/cores/arduino",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/system/libsam",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                    "/home/sco/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                    "/home/sco/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50204",
+                "__SAM3X8E__",
+                "ARDUINO_SAM_DUE",
+                "ARDUINO=10805",
+                "F_CPU=84000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x003E",
+                "USB_PRODUCT=\"Arduino Due\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "ARDUINO_ARCH_SAM",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/sco/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m3",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

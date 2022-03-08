@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/sco/Documents/PlatformIO/Projects/nimc-fuel-managment-system-V2/FM-Node-03/.pio/build/due/firmware.elf",
+            "projectEnvName": "due",
+            "toolchainBinDir": "/home/sco/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/sco/.platformio/platforms/atmelsam/misc/svd/ATSAM3X8E.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/sco/Documents/PlatformIO/Projects/nimc-fuel-managment-system-V2/FM-Node-03/.pio/build/due/firmware.elf",
+            "projectEnvName": "due",
+            "toolchainBinDir": "/home/sco/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/sco/.platformio/platforms/atmelsam/misc/svd/ATSAM3X8E.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/sco/Documents/PlatformIO/Projects/nimc-fuel-managment-system-V2/FM-Node-03/.pio/build/due/firmware.elf",
+            "projectEnvName": "due",
+            "toolchainBinDir": "/home/sco/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/sco/.platformio/platforms/atmelsam/misc/svd/ATSAM3X8E.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
